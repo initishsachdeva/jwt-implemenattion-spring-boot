@@ -1,14 +1,13 @@
 package com.jwt.jwtimplementationspringboot.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class JwtResponse {
-    private final String jwttoken;
+    private  String jwtToken;
 
-    public JwtResponse(String jwttoken) {
-        this.jwttoken = jwttoken;
-    }
-
-    public String getToken() {
-        return this.jwttoken;
-    }
 }
-
