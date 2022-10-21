@@ -16,11 +16,11 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableWebSecurity
-public class JWTSecurity extends WebSecurityConfigurerAdapter {
+public class JwtSecurity extends WebSecurityConfigurerAdapter {
     @Autowired
     private CustomUserDetailsService customUserDetailService;
     @Autowired
-    private JWTAuthenticationFilter jwtRequestFilter;
+    private JwtAuthenticationFilter jwtRequestFilter;
     @Autowired
     JwtAuthenticationEntryPoint entryPoint;
 
