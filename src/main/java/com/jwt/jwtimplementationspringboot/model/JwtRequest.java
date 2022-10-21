@@ -1,15 +1,15 @@
 package com.jwt.jwtimplementationspringboot.model;
 
-public class JWTRequest {
+public class JwtRequest {
     private String username;
     private String password;
 
     //need default constructor for JSON Parsing
-    public JWTRequest() {
+    public JwtRequest() {
 
     }
 
-    public JWTRequest(String username, String password) {
+    public JwtRequest(String username, String password) {
         this.setUsername(username);
         this.setPassword(password);
     }

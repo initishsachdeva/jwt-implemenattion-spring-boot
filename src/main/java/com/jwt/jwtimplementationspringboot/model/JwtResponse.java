@@ -1,9 +1,9 @@
 package com.jwt.jwtimplementationspringboot.model;
 
-public class JWTResponse {
+public class JwtResponse {
     private final String jwttoken;
 
-    public JWTResponse(String jwttoken) {
+    public JwtResponse(String jwttoken) {
         this.jwttoken = jwttoken;
     }
 
