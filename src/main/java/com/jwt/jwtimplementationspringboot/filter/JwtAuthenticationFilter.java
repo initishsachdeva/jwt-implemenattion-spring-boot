@@ -1,4 +1,4 @@
-package com.jwt.jwtimplementationspringboot.config;
+package com.jwt.jwtimplementationspringboot.filter;
 
 import java.io.IOException;
 

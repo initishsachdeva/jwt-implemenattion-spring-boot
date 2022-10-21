@@ -1,5 +1,6 @@
 package com.jwt.jwtimplementationspringboot.config;
 
+import com.jwt.jwtimplementationspringboot.filter.JwtAuthenticationFilter;
 import com.jwt.jwtimplementationspringboot.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
